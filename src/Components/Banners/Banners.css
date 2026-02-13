@@ -1,0 +1,52 @@
+/* Header Styling */
+header {
+  background-image:
+    linear-gradient(120deg, #0d1b2a91, #78000094), url("/Poster Blog-app.png");
+  background-color: #2d3436;
+  background-size: cover;
+  background-position: top;
+  height: 90vh;
+  display: flex;
+  position: relative;
+}
+
+.header-overlay {
+  background: rgba(0, 0, 0, 0.5); /* Helps text pop against background images */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.welcome-text {
+  color: #ffffff;
+  max-width: 800px;
+}
+
+.welcome-text h1 {
+  font-size: clamp(36px, 5vw, 64px);
+  margin-bottom: 10px;
+  letter-spacing: -1px;
+}
+
+.welcome-text p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+  font-weight: 300;
+}
+
+.cta-btn {
+  background-color: var(--accent-color);
+  color: #fff;
+  padding: 12px 30px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: 600;
+  transition: background 0.3s;
+}
+
+.cta-btn:hover {
+  background-color: #780000b4;
+}
